@@ -93,3 +93,5 @@ virtualenv==20.4.7
 visualdl==2.2.0
 Werkzeug==2.0.1
 zipp==3.4.1
+git+https://github.com/MahadrosaurTID/yolov5.git@truid_changes
+
