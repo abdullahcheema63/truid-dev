@@ -1,0 +1,6 @@
+venv/*
+card_classifier/classifier_app/migrations/*
+card_classifier/ocr_rec_model/*
+ocr_rec_model/*
+yolov5/weights/
+db.sqlite3

@@ -1,0 +1,104 @@
+keys:
+  name:
+    key: Name
+    lev:  2
+    value_box: [278, 145, 377, 178]
+    key_available: False
+    reference_point: bottom_left
+    value_point_search: top_left
+    dist_from_key_x: 0
+    dist_from_key_y: 0
+  father_name:
+    key: Father Name
+    lev: 2
+    value_box: [278, 271, 355, 307]
+    key_available: False
+    reference_point: bottom_left
+    value_point_search: top_left
+    dist_from_key_x: 0
+    dist_from_key_y: 0
+  gender:
+    key: Gender
+    lev: 2
+    value_box: [276, 408, 305, 439]
+    key_available: False
+    reference_point: bottom_left
+    value_point_search: top_left
+    dist_from_key_x: 0
+    dist_from_key_y: 0
+  country_f_stay:
+    key: Country of Stay
+    lev: 3
+    value_box: [376, 405, 476, 438]
+    key_available: True
+    reference_point: bottom_left
+    value_point_search: top_left
+    dist_from_key_x: 0
+    dist_from_key_y: 0
+  identity_number:
+    key: Identity Number
+    lev: 3
+    value_box: [276, 488, 477, 518]
+    key_available: True
+    reference_point: bottom_left
+    value_point_search: top_left
+    dist_from_key_x: 0
+    dist_from_key_y: 0
+  dob:
+    key: Date of Birth
+    lev: 3
+    value_box: [515, 487, 646, 517]
+    key_available: True
+    reference_point: bottom_left
+    value_point_search: top_left
+    dist_from_key_x: 0
+    dist_from_key_y: 0
+  doi:
+    key: Date of Issue
+    lev: 3
+    value_box: [277, 561, 408, 592]
+    key_available: True
+    reference_point: bottom_left
+    value_point_search: top_left
+    dist_from_key_x: 0
+    dist_from_key_y: 0
+  doe:
+    key: Date of Expiry
+    lev: 3
+    value_box: [515, 561, 646,592]
+    key_available: True
+    reference_point: bottom_left
+    value_point_search: top_left
+    dist_from_key_x: 0
+    dist_from_key_y: 0
+
+detection_parameters:
+  DET_WINDOW_XMIN: 20
+  DET_WINDOW_XMAX: 1070
+  DET_WINDOW_YMIN: 600
+  DET_WINDOW_YMAX: 1300
+  DET_IOU_THRESH: 0.7
+  ASPECT_RATIO_MIN: 1.4
+  ASPECT_RATIO_MAX: 1.6
+
+security_parameters:
+  circle_hologram:
+    detect_hologram: True
+    circle_box_xmin: 556
+    circle_box_ymin: 235
+    circle_box_xmax: 832
+    circle_box_ymax: 495
+    circle_centre_x: 694
+    circle_centre_y: 365.5
+    distance_thresh: 15
+    min_circle_radius: 80
+    max_circle_radius: 100
+    num_detections: 15
+    detection_ratio: 0.6
+  flag_hologram:
+    detect_hologram: True
+    roi_bottom: 192
+    roi_left: 776
+    roi_top: 0
+    roi_right: 1000
+    variance_threshold: 0.0001
