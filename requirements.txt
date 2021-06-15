@@ -58,7 +58,6 @@ pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pybind11==2.6.2
 pyclipper==1.2.1
-pycocotools==2.0.2
 pycodestyle==2.7.0
 pycryptodome==3.10.1
 pyflakes==2.3.1
